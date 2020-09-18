@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #FFC700;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1450px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    position: relative;
+    background-color: #58332b;
+    min-width: 320px;
+    color: white;
+    font-family: Roboto Slab;
+    font-style: normal;
+    background: linear-gradient(90deg, #56332c 11.16%, #9e5e24 220.09%, #ad703a 220.09%);
+    overflow: hidden;
+}
+
+.contacts {
+    &__soc {
+        /* margin-top: 30px; */
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__Email {
+        margin-left: 33px;
+    }
+
+    &__Vkontakte {
+        margin-left: 33px;
+    }
+}
+
+.main {
+    display: flex;
+    height: 575px;
+    &__svg {
+        position: relative;
+        top: -1145px;
+        left: -530px;
+        z-index: -1;
+    }
+
+    &__dec {
+        width: 550px;
+    }
+
+    &__myName {
+        display: flex;
+    }
+
+    &__name {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 42px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: rotate(-90deg);
+        width: 450px;
+        height: 45px;
+        margin-top: 378px;
+        margin-left: -218px;
+        margin-right: -228px;
+        margin-bottom: 25px;
+    }
+
+    &__texts{
+        display: flex;
+        justify-content: space-evenly;
+        width: 667px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 30px;
+        margin-left: 160px;
+        height: 280px;
+        margin-top: 120px;
+    }
+
+    &__text{
+        width: 400px;
+    }
+    
+    &__text_exp{
+        width: 305px;
+    }
+
+    &__title_left{
+        margin-left: 50px;
+    }
+}
+
+.prof{
+    display: flex;
+    justify-content: flex-end;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 65px;
+}
