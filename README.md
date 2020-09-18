@@ -1,2 +1,2 @@
 https://giridhar108.github.io/rsschool-cv/cv
-https://your-github-account.github.io/rsschool-cv/
+https://giridhar108.github.io/rsschool-cv/
